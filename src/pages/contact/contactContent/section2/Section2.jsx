@@ -1,4 +1,5 @@
 import React from 'react'
+import map from "../../../../assets/map.PNG"
 
 const Section2 = () => {
   return (
@@ -8,8 +9,8 @@ const Section2 = () => {
                 <div>
 
                 </div>
-                <div>
-                    
+                <div className='border border-white '>
+                    <img src={map} alt="" />
                 </div>
             </div>
 
