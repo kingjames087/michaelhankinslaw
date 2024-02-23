@@ -1,12 +1,12 @@
-import React from 'react'
-// import map from "../../../../assets/map.PNG"
+
+
 
 const Section2 = () => {
   return (
     <div>
         <div className='w-11/12 mx-auto max-w-screen-2xl'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
-                <div className='shadow-2xl p-14'>
+                <div className='shadow-2xl p-14 min-w-[745px]'>
                     <h1 className='text-2xl text-[#16163f] py-6'>Contact Our Law Firm And Speak With An Attorney In Jacksonville Illinois</h1>
                     <p className='text-xl text-[#211f40] pb-10'>Regardless if your legal problems seem minor or you anticipate a difficult legal battle, you will need the help of a lawyer to guide you through the process of the legal system. Call the office of Michael A. Hankins for all your legal advice</p>
                     <div className='flex flex-col  gap-7 justify-center items-center text-center'>

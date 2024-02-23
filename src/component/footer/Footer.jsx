@@ -1,15 +1,19 @@
 
+import { Link } from 'react-router-dom';
 import './Footer.css'
 const Footer = () => {
   return (
    <div>
      <div className="footer-bg " >
       <div className="w-11/12 mx-auto max-w-screen-2xl flex items-center justify-center ">
-        <img
+      
+      <Link>
+      <img
           className="w-80 py-9"
           src="https://michaelhankinslaw.com/wp-content/uploads/2023/05/michael-hankins-law-office-jacksonville-il-logo-new.png"
           alt=""
         />
+      </Link>
       </div>
    <div className="w-11/12 mx-auto max-w-screen-2xl z-50">
    <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 text-white text-center">

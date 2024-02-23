@@ -3,7 +3,7 @@ import Navbar from "../../../../component/navbar/Navbar";
 
 const HeroSection = () => {
   return (
-    <div className="hero-bg">
+    <div className="home-bg">
       {/* <div className="fixed top-0 left-0 w-full  bg-[#16163F] opacity-70 " /> */}
 
     <div className="z-50 relative pt-3 pb-28">

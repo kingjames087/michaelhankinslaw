@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom'
 
 
@@ -12,7 +12,9 @@ const Navbar = () => {
             <p>Monday - Friday: 8:00 AM - 4:30 PM</p>
         </div>
         <div>
-            <img className='w-80' src="https://michaelhankinslaw.com/wp-content/uploads/2023/05/michael-hankins-law-office-jacksonville-il-logo-new.png" alt="" />
+          <Link to="/">
+          <img className='w-80' src="https://michaelhankinslaw.com/wp-content/uploads/2023/05/michael-hankins-law-office-jacksonville-il-logo-new.png" alt="" />
+          </Link>
         </div>
         <div>
             <p>301 W. State Street Jacksonville, Illinois 62650</p>

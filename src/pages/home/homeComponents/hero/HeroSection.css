@@ -1,4 +1,4 @@
-.hero-bg {
+.home-bg {
     position: relative;
     background-image: url("../../../../assets/michael-hankins-law-office-jacksonville-il-hero.webp");
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     height: 100%;
 }
 
-.hero-bg::before {
+.home-bg::before {
     content: "";
     position: absolute;
     top: 0;
