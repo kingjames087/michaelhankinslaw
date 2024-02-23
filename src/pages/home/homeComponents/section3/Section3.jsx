@@ -5,13 +5,13 @@ import img2 from '../../../../assets/secthree-img2.webp'
 const Section3 = () => {
   return (
     <div className="bg-[#16163F]">
-      <div className="w-full max-w-screen-2xl mx-auto py-14">
+      <div className="w-11/12  max-w-screen-2xl mx-auto py-14">
         <h1 className="text-white text-center text-4xl">
           WHAT OUR LAW FIRM DOES & HOW WE CAN HELP YOU
         </h1>
         <div className="grid grid-cols-1 gap-10 py-10">
         <div className="flex flex-col lg:flex-row gap-12 justify-between items-center">
-          <p className="text-white ps-9">
+          <p className="text-white text-center lg:text-start ps-0 lg:ps-9">
             Michael A. Hankins Attorney at Law is proud to be the law firm that
             people in the Jacksonville, Illinois, area call for their complex
             legal issues. We are always happy to help our community with legal
@@ -28,7 +28,7 @@ const Section3 = () => {
           <img className="w-[657px]" src={img1} alt="" />
         </div>
         <div className="flex flex-col lg:flex-row gap-12 justify-between items-center">
-          <p className="text-white ps-9">
+          <p className="text-white text-center lg:text-start ps-0 lg:ps-9">
             We’re also the lawyers to call for any criminal cases. We have
             plenty of trial experience, using it to win your case. Assault,
             robbery, felonies, misdemeanors – we can handle them all. Lastly, we
