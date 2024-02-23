@@ -6,7 +6,7 @@ const Section4 = () => {
           FIRM PRACTICE AREAS
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-11">
-          <div className="w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
+          <div className="w-full lg:w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
             <h1 className=" text-xl pb-3">CRIMINAL DEFENSE</h1>
             <hr className="border-b-2 border-yellow-300 w-2/5 mx-auto" />
             <p className="text-sm py-4 font-medium">
@@ -18,7 +18,7 @@ const Section4 = () => {
               LEARN MORE
             </button>
           </div>
-          <div className="w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
+          <div className=" w-full lg:w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
             <h1 className=" text-xl pb-3">PROBATE, WILLS, & POAS</h1>
             <hr className="border-b-2 border-yellow-300 w-2/5 mx-auto" />
             <p className="text-sm py-4 font-medium">
@@ -30,7 +30,7 @@ const Section4 = () => {
               LEARN MORE
             </button>
           </div>
-          <div className="w-72 p-5 border-t-2 border-yellow-300 ro2/5ed-t-md text-center shadow-2xl">
+          <div className="w-full lg:w-72 p-5 border-t-2 border-yellow-300 ro2/5ed-t-md text-center shadow-2xl">
             <h1 className=" text-xl pb-3">DUI OR DWI</h1>
             <hr className="border-b-2 border-yellow-300 w-2/5 mx-auto" />
             <p className="text-sm py-4 font-medium">
@@ -42,7 +42,7 @@ const Section4 = () => {
               LEARN MORE
             </button>
           </div>
-          <div className="w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
+          <div className="w-full lg:w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
             <h1 className=" text-xl pb-3">TRAFFIC LAW</h1>
             <hr className="border-b-2 border-yellow-300 w-2/5 mx-auto" />
             <p className="text-sm py-4 font-medium">
@@ -54,7 +54,7 @@ const Section4 = () => {
               LEARN MORE
             </button>
           </div>
-          <div className="w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
+          <div className="w-full lg:w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
             <h1 className=" text-xl pb-3">CHILD CUSTODY</h1>
             <hr className="border-b-2 border-yellow-300 w-2/5 mx-auto" />
             <p className="text-sm py-4 font-medium">
@@ -64,7 +64,7 @@ const Section4 = () => {
               LEARN MORE
             </button>
           </div>
-          <div className="w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
+          <div className="w-full lg:w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
             <h1 className=" text-xl pb-3">DIVORCE</h1>
             <hr className="border-b-2 border-yellow-300 w-2/5 mx-auto" />
             <p className="text-sm py-4 font-medium">
@@ -74,7 +74,7 @@ const Section4 = () => {
               LEARN MORE
             </button>
           </div>
-          <div className="w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
+          <div className="w-full lg:w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
             <h1 className=" text-xl pb-3">FAMILY LAW</h1>
             <hr className="border-b-2 border-yellow-300 w-2/5 mx-auto" />
             <p className="text-sm py-4 font-medium">
@@ -84,7 +84,7 @@ const Section4 = () => {
               LEARN MORE
             </button>
           </div>
-          <div className="w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
+          <div className="w-full lg:w-72 p-5 border-t-4 border-yellow-300 rounded-t-md text-center shadow-2xl">
             <h1 className=" text-xl pb-3">PERSONAL INJURY</h1>
             <hr className="border-b-2 border-yellow-300 w-2/5 mx-auto" />
             <p className="text-sm py-4 font-medium">

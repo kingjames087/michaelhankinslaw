@@ -18,28 +18,10 @@ const Section6 = () => {
           smoothly.
         </p>
         <div className="w-full lg:w-3/4 mx-auto">
-          {/* <form action="">
-               <div>
-               <input type="text" />
-               <input type="text" />
-               </div>
-               <div>
-               <input type="text" />
-               <input type="text" />
-               </div>
-               <div>
-               <input type="text" />
-               <input type="text" />
-               </div>
-               <div>
-               <textarea className="resize-none border rounded-md w-full px-4 py-2 focus:outline-none focus:ring focus:border-blue-300" rows="4" placeholder="Enter your text here..."></textarea>
-
-               </div>
-            </form> */}
 
           <div className="">
             <form className="bg-white  rounded px-8 pt-6 pb-8 mb-4">
-              <div className="mb-4 flex gap-10">
+              <div className="mb-4 flex gap-5 lg:gap-10">
                 <input
                   className="appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="username"
@@ -53,7 +35,7 @@ const Section6 = () => {
                   placeholder="LastName"
                 />
               </div>
-              <div className="mb-4 flex gap-10">
+              <div className="mb-4 flex gap-5 lg:gap-10">
                 <input
                   className="appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="username"
@@ -67,7 +49,7 @@ const Section6 = () => {
                   placeholder="Phonenumber"
                 />
               </div>
-              <div className="flex gap-10 mb-5">
+              <div className="flex gap-5 lg:gap-10 mb-5">
                 <select
                   className=" appearance-none border rounded w-full py-3 pr-8 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="role"
