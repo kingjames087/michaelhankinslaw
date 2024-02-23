@@ -1,0 +1,19 @@
+.hero-bg {
+    position: relative;
+    background-image: url("../../../../assets/michael-hankins-law-office-jacksonville-il-hero.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.hero-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #16163F; /* Background color */
+    opacity: 0.5; /* Opacity level */
+}
