@@ -9,7 +9,7 @@ const Section1 = () => {
       <div className='flex flex-col lg:flex-row gap-14 items-center justify-center'>
             <img className='w-[469px] h-[605px]' src={lawImg} alt="" />
             <div>
-                <h1 className='text-4xl text-[#16163F] border-l-4 ps-1 border-yellow-400  '>PROVIDING YOU WITH THE LEGAL REPRESENTATION YOU DESERVE</h1>
+                <h1 className=' text-2xl lg:text-4xl text-[#16163F] border-l-4 ps-1 border-yellow-400  '>PROVIDING YOU WITH THE LEGAL REPRESENTATION YOU DESERVE</h1>
                 <p className='text-[#4A4A4A] text-xl pt-4'>We will work hard for you to achieve the best possible outcome. We specialize in the following practice areas:</p>
                 <ul className='py-5 text-[#4A4A4A] list-disc ps-4'>
                     <li className='text-xl'>Criminal Defense</li>

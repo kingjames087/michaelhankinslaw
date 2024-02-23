@@ -18,9 +18,8 @@ const Section6 = () => {
           smoothly.
         </p>
         <div className="w-full lg:w-3/4 mx-auto">
-
           <div className="">
-            <form className="bg-white  rounded px-8 pt-6 pb-8 mb-4">
+            <form className="bg-white  rounded px-2 lg:px-8 pt-6 pb-8 mb-4">
               <div className="mb-4 flex gap-5 lg:gap-10">
                 <input
                   className="appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -70,7 +69,6 @@ const Section6 = () => {
                   <option>Yes, I am returning Client</option>
                   <option>No, I am a new client</option>
                   <option>I am neither</option>
-            
                 </select>
               </div>
               <textarea
@@ -78,9 +76,11 @@ const Section6 = () => {
                 rows="4"
                 placeholder="Message..."
               ></textarea>
-           <div className="flex items-center justify-center py-6">
-           <button className="px-6 py-3 bg-[#4054B2] hover:bg-black text-white rounded-md">Submit Form</button>
-           </div>
+              <div className="flex items-center justify-center py-6">
+                <button className="px-6 py-3 bg-[#4054B2] hover:bg-black text-white rounded-md">
+                  Submit Form
+                </button>
+              </div>
             </form>
           </div>
         </div>
