@@ -22,15 +22,15 @@ const Footer = () => {
    <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 text-white text-center">
         <div>
           <h1 className=" text-yellow-400 text-2xl font-semibold">OUR OFFICE</h1>
-          <div className='flex items-center py-1 justify-center'>
+          <div className='flex flex-col lg:flex-row items-center py-1 justify-center'>
             <img className='w-5 h-5' src={location} alt="" />
           <p className='py-4 hover:text-yellow-300'>301 W. State Street Jacksonville, IL 62650</p>
           </div>
-          <div className='flex items-center gap-2 justify-center'>
+          <div className='flex flex-col lg:flex-row items-center gap-2 justify-center'>
             <img className='w-5 h-5' src={call} alt="" />
             <p className='hover:text-yellow-300 text-center py-1'>(217)368-5931</p>
             </div>
-           <div className='flex gap-1 items-center'>
+           <div className='flex flex-col lg:flex-row gap-1 justify-center items-center'>
             <img className='w-4 h-4' src={email} alt="" />
            <a href="michaelhankinslaw@gmail.com" className='text-white text-xl'> michaelhankinslaw@gmail.com</a> 
            </div>
