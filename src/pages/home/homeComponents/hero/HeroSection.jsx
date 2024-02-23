@@ -11,7 +11,7 @@ const HeroSection = () => {
       <Navbar />
       <div className="py-24 text-center text-white">
         <h4 className="text-xl py-5">FORMER ASSISTANT STATE’S ATTORNEY OF ST. CLAIR COUNTY</h4>
-        <h1 className="text-white text-6xl w-1/2 mx-auto">LAW OFFICE OF MICHAEL A. HANKINS</h1>
+        <h1 className="text-white text-2xl lg:text-6xl w-full lg:w-1/2 mx-auto ">LAW OFFICE OF MICHAEL A. HANKINS</h1>
       </div>
     </div>
     </div>

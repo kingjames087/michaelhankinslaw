@@ -6,7 +6,7 @@ const Section1 = () => {
     <div>
 
       <div className='w-11/12 mx-auto max-w-screen-2xl py-14'>
-      <div className='flex gap-14 items-center justify-center'>
+      <div className='flex flex-col lg:flex-row gap-14 items-center justify-center'>
             <img className='w-[469px] h-[605px]' src={lawImg} alt="" />
             <div>
                 <h1 className='text-4xl text-[#16163F] border-l-4 ps-1 border-yellow-400  '>PROVIDING YOU WITH THE LEGAL REPRESENTATION YOU DESERVE</h1>
