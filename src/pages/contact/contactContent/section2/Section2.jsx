@@ -37,7 +37,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div className='border-[20px] border-white shadow-xl max-w-[474px]  '>
-                    <img src={mapImg} alt="" />
+                    <img src={mapImg} alt="map" />
                 </div>
             </div>
 
