@@ -20,6 +20,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media (width < 700px){
+  *{
+    overflow-x: hidden;
+  }
+}
 p{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
