@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 const Navbar = () => {
   return (
@@ -26,7 +28,7 @@ const Navbar = () => {
                 <li>PROBATE, WILLS & ESTATE</li>
                 <li>TRAFIC LAW</li>
                 <li>PERSONAL INJURY</li>
-                <li>CONTACT US</li>
+                <Link to="/contactus" > <li>CONTACT US</li></Link>
             </ul>
         </div>
        </div>
