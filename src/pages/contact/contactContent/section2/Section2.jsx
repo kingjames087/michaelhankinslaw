@@ -16,7 +16,7 @@ const Section2 = () => {
                             <img className='w-12 h-12 pb-4' src={call} alt="" />
                         <hr className='border-t-2 border-yellow-300 pt-3 w-1/2 mx-auto' />
                             <h2 className='text-3xl'>Phone</h2>
-                            <p className='text-[18px]'>(217) 243-3434</p>
+                            <p className='text-[18px]'>(217) 368-5931</p>
                         </div>
                         <div className='flex flex-col lg:flex-row gap-16'>
                             <div className='flex flex-col justify-center items-center'>

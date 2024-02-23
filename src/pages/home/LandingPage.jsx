@@ -10,7 +10,7 @@ import Section6 from "./homeComponents/section6/Section6"
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="">
         <HeroSection/>
         <Section1/>
         <Section2/>
