@@ -20,7 +20,7 @@ const Section6 = () => {
         <div className="w-full lg:w-3/4 mx-auto">
           <div className="">
             <form className="bg-white  rounded px-2 lg:px-8 pt-6 pb-8 mb-4">
-              <div className="mb-4 flex gap-5 lg:gap-10">
+              <div className="mb-4 flex flex-col lg:flex-row gap-5 lg:gap-10">
                 <input
                   className="appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="username"
@@ -34,7 +34,7 @@ const Section6 = () => {
                   placeholder="LastName"
                 />
               </div>
-              <div className="mb-4 flex gap-5 lg:gap-10">
+              <div className="mb-4 flex flex-col lg:flex-row gap-5 lg:gap-10">
                 <input
                   className="appearance-none border rounded w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="username"
@@ -48,7 +48,7 @@ const Section6 = () => {
                   placeholder="Phonenumber"
                 />
               </div>
-              <div className="flex gap-5 lg:gap-10 mb-5">
+              <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 mb-5">
                 <select
                   className=" appearance-none border rounded w-full py-3 pr-8 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                   id="role"
